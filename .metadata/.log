@@ -5210,3 +5210,31 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/kim_
 
 !ENTRY com.renesas.software.installer.ide 4 0 2025-07-22 15:11:23.396
 !MESSAGE Unable to load product feature list
+!SESSION 2025-07-22 17:35:40.242 -----------------------------------------------
+eclipse.buildId=v25.4.1
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -keyring /Users/kim_kyoungkun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/kim_kyoungkun/.eclipse_keyring -data /Users/kim_kyoungkun/Desktop/technonia
+
+!ENTRY org.eclipse.ui 2 0 2025-07-22 17:35:42.373
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-22 17:35:42.373
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-22 17:35:42.373
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-22 17:35:42.373
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-22 17:35:42.660
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-22 17:35:42.660
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-22 17:35:42.660
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-22 17:35:42.660
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY com.renesas.software.installer.ide 4 0 2025-07-22 17:35:44.271
+!MESSAGE Unable to load product feature list

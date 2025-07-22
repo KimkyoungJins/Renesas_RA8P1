@@ -23,6 +23,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="false"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/kim_kyoungkun/Desktop/icu22"/>
 			<item value="/Users/kim_kyoungkun/Desktop/technonia/icu/icu_ek_ra8p1_ep/e2studio"/>
 			<item value="/Users/kim_kyoungkun/Desktop/technonia/example 1/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/icu/icu_ek_ra8p1_ep/e2studio"/>
 			<item value="/Users/kim_kyoungkun/Desktop/technonia/example 1/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/icu/icu_ek_ra8p1_ep"/>
