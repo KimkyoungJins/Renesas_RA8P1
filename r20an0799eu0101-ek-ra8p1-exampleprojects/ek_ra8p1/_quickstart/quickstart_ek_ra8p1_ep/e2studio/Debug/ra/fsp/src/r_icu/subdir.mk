@@ -1,0 +1,26 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../ra/fsp/src/r_icu/r_icu.c 
+
+C_DEPS += \
+./ra/fsp/src/r_icu/r_icu.d 
+
+OBJS += \
+./ra/fsp/src/r_icu/r_icu.o 
+
+SREC += \
+e2studio.srec 
+
+MAP += \
+e2studio.map 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+ra/fsp/src/r_icu/%.o: ../ra/fsp/src/r_icu/%.c
+	$(file > $@.in,-mfloat-abi=hard -mcpu=cortex-m85+nopacbti -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal -g -D_RENESAS_RA_ -D_RA_ORDINAL=1 -D_RA_DEBUG_BUILD_ -D_RA_CORE=CPU0 -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/src" -I"." -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/inc" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/inc/api" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/inc/instances" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/src/rm_freertos_port" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/aws/FreeRTOS/FreeRTOS/Source/include" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/arm/CMSIS_6/CMSIS/Core/Include" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra_gen" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra_cfg/fsp_cfg/bsp" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra_cfg/fsp_cfg" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra_cfg/aws" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/src/r_mipi_csi" -I"/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/src/r_vin" -std=c99 -Wno-stringop-overflow -Wno-format-truncation -flax-vector-conversions --param=min-pagesize=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" -x c "$<")
+	@echo Building file: $< && arm-none-eabi-gcc @"$@.in"
+

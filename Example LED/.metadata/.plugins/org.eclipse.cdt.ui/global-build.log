@@ -1,0 +1,16 @@
+Extracting support files...
+15:31:07 **** Incremental Build of configuration Debug for project ledtests_CPU0 ****
+make -r --output-sync -j7 all 
+Building file: ../src/hal_entry.c
+../src/hal_entry.c:21:1: error: use of undeclared identifier 'z'
+   21 | z
+      | ^
+../src/hal_entry.c:37:28: error: use of undeclared identifier 'bsp_delay_units'
+   37 |     const uint32_t delay = bsp_delay_units / (freq_in_hz * 2);
+      |                            ^
+../src/hal_entry.c:97:36: error: use of undeclared identifier 'bsp_delay_units'
+   97 |         R_BSP_SoftwareDelay(delay, bsp_delay_units);
+      |                                    ^
+3 errors generated.
+make: *** [src/subdir.mk:26: src/hal_entry.o] Error 1
+"make -r --output-sync -j7 all" terminated with exit code 2. Build might be incomplete.

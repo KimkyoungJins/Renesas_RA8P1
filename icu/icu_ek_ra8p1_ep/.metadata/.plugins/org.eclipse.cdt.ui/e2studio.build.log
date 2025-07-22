@@ -1,0 +1,8 @@
+14:50:45 **** Incremental Build of configuration Debug for project e2studio ****
+make -r --output-sync -j7 all 
+llvm-size --format=berkeley "e2studio.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8958	      0	   2416	  11374	   2c6e	e2studio.elf
+
+14:50:45 Build Finished. 0 errors, 0 warnings. (took 90ms)
+

@@ -1,0 +1,35 @@
+15:42:47 **** Build of configuration Debug for project ledtest3_CPU1 ****
+make -r --output-sync -j7 all 
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/main.c
+Building file: ../src/hal_entry.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+Building file: ../ra/fsp/src/bsp/mcu/ra8p1/bsp_linker.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_macl.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_ipc.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sdram.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/board/ra8p1_ek/board_init.c
+Building file: ../ra/board/ra8p1_ek/board_leds.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building target: ledtest3_CPU1.elf
+llvm-size --format=berkeley "ledtest3_CPU1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2858	      0	   1184	   4042	    fca	ledtest3_CPU1.elf
+llvm-objcopy "ledtest3_CPU1.elf" -O srec  "ledtest3_CPU1.srec"
+
+15:42:47 Build Finished. 0 errors, 0 warnings. (took 572ms)
+

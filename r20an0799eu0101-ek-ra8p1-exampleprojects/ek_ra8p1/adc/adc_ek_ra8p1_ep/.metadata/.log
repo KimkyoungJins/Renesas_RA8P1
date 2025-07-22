@@ -1,0 +1,375 @@
+!SESSION 2025-07-18 13:28:32.958 -----------------------------------------------
+eclipse.buildId=v25.4.1
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -keyring /Users/kim_kyoungkun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/kim_kyoungkun/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2025-07-18 13:28:57.477
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:28:57.478
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:28:57.478
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:28:57.478
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-18 13:28:57.698
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:28:57.698
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:28:57.698
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:28:57.698
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY com.renesas.software.installer.ide 4 0 2025-07-18 13:28:59.429
+!MESSAGE Unable to load product feature list
+
+!ENTRY org.eclipse.help 4 0 2025-07-18 13:29:16.070
+!MESSAGE Error reading help table of contents file /"com.renesas.hardwaredebug.arm.common.help/html/semihosting_help.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:47)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:50)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:215)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:203)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:311)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:72)
+	at org.eclipse.help.internal.webapp.data.TocData.loadTocs(TocData.java:215)
+	at org.eclipse.help.internal.webapp.data.TocData.<init>(TocData.java:111)
+	at org.eclipse.help.internal.webapp.data.LayoutData.getContentURL(LayoutData.java:137)
+	at org.apache.jsp.advanced.content_jsp._jspService(content_jsp.java:205)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:180)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:181)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1403)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:154)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:66)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:112)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.dispatch(ProxyServlet.java:141)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.preprocess(ProxyServlet.java:113)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:103)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:340)
+	at org.eclipse.jetty.ee8.servlet.ServletHolder.handle(ServletHolder.java:640)
+	at org.eclipse.jetty.ee8.servlet.ServletHandler.doHandle(ServletHandler.java:456)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextHandle(ScopedHandler.java:181)
+	at org.eclipse.jetty.ee8.nested.SessionHandler.doHandle(SessionHandler.java:519)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextHandle(ScopedHandler.java:181)
+	at org.eclipse.jetty.ee8.nested.ContextHandler.doHandle(ContextHandler.java:881)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextScope(ScopedHandler.java:152)
+	at org.eclipse.jetty.ee8.servlet.ServletHandler.doScope(ServletHandler.java:423)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextScope(ScopedHandler.java:150)
+	at org.eclipse.jetty.ee8.nested.SessionHandler.doScope(SessionHandler.java:503)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextScope(ScopedHandler.java:150)
+	at org.eclipse.jetty.ee8.nested.ContextHandler.doScope(ContextHandler.java:826)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.ee8.nested.ContextHandler.handle(ContextHandler.java:1424)
+	at org.eclipse.jetty.ee8.nested.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1290)
+	at org.eclipse.jetty.ee8.nested.HttpChannel.dispatch(HttpChannel.java:623)
+	at org.eclipse.jetty.ee8.nested.HttpChannel.handle(HttpChannel.java:460)
+	at org.eclipse.jetty.ee8.nested.ContextHandler$CoreContextHandler$CoreToNestedHandler.handle(ContextHandler.java:2385)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2025-07-18 13:30:12.279 -----------------------------------------------
+eclipse.buildId=v25.4.1
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -keyring /Users/kim_kyoungkun/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/kim_kyoungkun/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2025-07-18 13:30:17.635
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:30:17.635
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:30:17.635
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:30:17.635
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-18 13:30:17.861
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:30:17.861
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:30:17.861
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-18 13:30:17.861
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY com.renesas.software.installer.ide 4 0 2025-07-18 13:30:19.490
+!MESSAGE Unable to load product feature list
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.671
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.671
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.671
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.671
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:55.672
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.308
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.309
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.309
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.309
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.309
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-pattern-valid: 'LwIP_TCPIP' 값은 'CvendorType' 유형의 '[A-Za-z0-9][A-Za-z0-9\-\s]+' 패턴에 대해 적합한 면이 아닙니다.
+
+!ENTRY com.renesas.cdt.ddsc.packs 2 0 2025-07-18 15:28:56.309
+!MESSAGE Warning parsing Pack PDSC file  /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/internal/projectgen/ra/packs/lwIP.lwIP.2.2.0+fsp.6.0.0.pack: Error X401: cvc-attribute.3: 'component' 요소의 'Cvendor' 속성에 대한 'LwIP_TCPIP' 값이 'CvendorType' 유형에 대해 부적합합니다.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-18 15:28:58.580
+!MESSAGE Indexed 'quickstart_ek_ra8p1_ep' (136 sources, 78 headers) in 1.29 sec: 4,248 declarations; 8,956 references; 137 unresolved inclusions; 9 syntax errors; 1,077 unresolved names (7.5%)
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:29:51.307
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:29:51.307
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:29:51.311
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:29:51.312
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:29:51.312
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:19.727
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:19.727
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:19.730
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:19.730
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:19.731
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:26.702
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:26.703
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:26.706
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:26.706
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY com.renesas.hardwaredebug 4 0 2025-07-18 15:30:26.707
+!MESSAGE The program file specified in the launch configuration does not exist
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-07-18 15:30:31.992
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/kim_kyoungkun/Desktop/테크노니아/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/Debug/quickstart_ek_ra8p1_ep.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:777)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:688)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-07-18 15:30:31.992
+!MESSAGE /Users/kim_kyoungkun/Desktop/테크노니아/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/Debug/quickstart_ek_ra8p1_ep.elf not found
+!STACK 0
+java.io.FileNotFoundException: /Users/kim_kyoungkun/Desktop/테크노니아/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/Debug/quickstart_ek_ra8p1_ep.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:777)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:688)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:31:36.653
+!MESSAGE Creating new Model for gdb[0].proc[1].threadGroup[i1]
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:31:36.656
+!MESSAGE Loading Io Map: /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/DebugComp/RA/IoFiles/R7KA8P1AD.svd
+
+!ENTRY com.renesas.cdt.debug.eventpoints 1 0 2025-07-18 15:31:37.110
+!MESSAGE Eventpoints view disposed
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:33:14.446
+!MESSAGE Saving model state for session 1
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:33:14.452
+!MESSAGE Removing model for session 1
+
+!ENTRY com.renesas.cdt.debug.eventpoints 1 0 2025-07-18 15:33:14.459
+!MESSAGE Eventpoints view disposed
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:33:27.447
+!MESSAGE Creating new Model for gdb[1].proc[1].threadGroup[i1]
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:33:27.449
+!MESSAGE Loading Io Map: /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/DebugComp/RA/IoFiles/R7KA8P1AD.svd
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:34:30.316
+!MESSAGE Saving model state for session 2
+
+!ENTRY com.renesas.cdt.launch.dsf 4 0 2025-07-18 15:34:30.321
+!MESSAGE GdbReloadListener received IResourceChangeEvent for inactive DsfSession (id=2)
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:34:30.321
+!MESSAGE Removing model for session 2
+
+!ENTRY com.renesas.cdt.debug.eventpoints 1 0 2025-07-18 15:34:30.372
+!MESSAGE Eventpoints view disposed
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:34:44.673
+!MESSAGE Creating new Model for gdb[2].proc[1].threadGroup[i1]
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:34:44.675
+!MESSAGE Loading Io Map: /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/DebugComp/RA/IoFiles/R7KA8P1AD.svd
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:36:25.633
+!MESSAGE Saving model state for session 3
+
+!ENTRY com.renesas.cdt.launch.dsf 4 0 2025-07-18 15:36:25.638
+!MESSAGE GdbReloadListener received IResourceChangeEvent for inactive DsfSession (id=3)
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 15:36:25.638
+!MESSAGE Removing model for session 3
+
+!ENTRY com.renesas.cdt.debug.eventpoints 1 0 2025-07-18 15:36:25.675
+!MESSAGE Eventpoints view disposed
+
+!ENTRY org.eclipse.jface 2 0 2025-07-18 15:41:25.162
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-18 15:41:25.162
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 16:03:25.478
+!MESSAGE Creating new Model for gdb[3].proc[1].threadGroup[i1]
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 16:03:25.480
+!MESSAGE Loading Io Map: /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/DebugComp/RA/IoFiles/R7KA8P1AD.svd
+
+!ENTRY com.renesas.cdt.debug.ui 1 0 2025-07-18 16:04:13.548
+!MESSAGE Breakpoint type change event received for active part
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2025-07-18 16:04:13.680
+!MESSAGE Unable to locate file: /Users/kim_kyoungkun/Desktop/\341\204\220\341\205\246\341\204\217\341\205\263\341\204\202\341\205\251\341\204\202\341\205\265\341\204\213\341\205\241/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 16:04:22.816
+!MESSAGE Saving model state for session 4
+
+!ENTRY com.renesas.cdt.launch.dsf 4 0 2025-07-18 16:04:22.821
+!MESSAGE GdbReloadListener received IResourceChangeEvent for inactive DsfSession (id=4)
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 16:04:22.821
+!MESSAGE Removing model for session 4
+
+!ENTRY com.renesas.cdt.debug.eventpoints 1 0 2025-07-18 16:04:22.885
+!MESSAGE Eventpoints view disposed
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-18 16:05:15.061
+!MESSAGE Indexed 'quickstart_ek_ra8p1_ep' (214 sources, 231 headers) in 6.54 sec: 60,430 declarations; 115,290 references; 0 unresolved inclusions; 0 syntax errors; 234 unresolved names (0.13%)
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 16:05:25.911
+!MESSAGE Creating new Model for gdb[4].proc[1].threadGroup[i1]
+
+!ENTRY com.renesas.cdt.debug.ioview.dsf 1 0 2025-07-18 16:05:25.913
+!MESSAGE Loading Io Map: /Users/kim_kyoungkun/.eclipse/com.renesas.platform_589702750/DebugComp/RA/IoFiles/R7KA8P1AD.svd

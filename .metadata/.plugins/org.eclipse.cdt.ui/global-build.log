@@ -1,0 +1,6 @@
+Extracting support files...
+15:47:26 **** Incremental Build of configuration Debug for project ledtest3_CPU0 ****
+make -r --output-sync -j7 all 
+llvm-size --format=berkeley "ledtest3_CPU0.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5858	      0	   1184	   7042	   1b82	ledtest3_CPU0.elf

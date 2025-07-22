@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cHelpSettings>
+                            
+    
+    
+    
+    
+    
+    <project name="ledtests_CPU0">
+                        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                    
+    
+    </project>
+                        
+
+    
+    
+    
+    
+    <project name="ledtests_CPU1">
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+    </project>
+                
+
+
+
+</cHelpSettings>

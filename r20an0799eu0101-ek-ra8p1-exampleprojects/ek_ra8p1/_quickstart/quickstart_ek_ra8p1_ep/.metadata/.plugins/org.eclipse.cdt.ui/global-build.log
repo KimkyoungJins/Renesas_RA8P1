@@ -1,0 +1,326 @@
+Extracting support files...
+16:19:36 **** Clean-only build of configuration Debug for project e2studio ****
+make -r -j7 clean 
+COMMAND_MODE="unix2003" CWD="/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/Debug" GCC_VERSION="13.2.1" HOME="/Users/kim_kyoungkun" JAVA_STARTED_ON_FIRST_THREAD_3204="1" LOGNAME="kim_kyoungkun" MAKEFLAGS="r -j7 --jobserver-auth=fifo:/var/folders/_0/37___y497kd2z9qyyvn81v_w0000gn/T//GMfifo3952" MAKELEVEL="1" MFLAGS="-r -j7 --jobserver-auth=fifo:/var/folders/_0/37___y497kd2z9qyyvn81v_w0000gn/T//GMfifo3952" PATH="/Applications/Renesas e2 studio with RA FSP v6.0.0/toolchains/arm-gnu-toolchain-13.2.Rel1-darwin-arm64-arm-none-eabi/bin/:/Applications/Renesas e2 studio with RA FSP v6.0.0/Renesas e2 studio with RA FSP 6.0.0.app/Contents/eclipse/plugins/com.renesas.ide.exttools.uutils.macosx.aarch64_1.0.0.v20230526-0850/uutils/:/Applications/Renesas e2 studio with RA FSP v6.0.0/Renesas e2 studio with RA FSP 6.0.0.app/Contents/eclipse/plugins/com.renesas.ide.exttools.gnumake.macosx.aarch64_1.0.1.v20240909-0854/mk/:/usr/bin:/bin:/usr/sbin:/sbin" PWD="/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/Debug" SHELL="/bin/zsh" SSH_AUTH_SOCK="/private/tmp/com.apple.launchd.2FRGXz5VaK/Listeners" TCINSTALL="/Applications/Renesas e2 studio with RA FSP v6.0.0/toolchains/arm-gnu-toolchain-13.2.Rel1-darwin-arm64-arm-none-eabi/" TC_VERSION="13.2.1.arm-13-7" TMPDIR="/var/folders/_0/37___y497kd2z9qyyvn81v_w0000gn/T/" USER="kim_kyoungkun" XPC_FLAGS="0x0" XPC_SERVICE_NAME="application.com.renesas.ide.e2studio.product.66228994.66228997" __CFBundleIdentifier="com.renesas.ide.e2studio.product" __CF_USER_TEXT_ENCODING="0x1F5:0x3:0x33" "rm" "-rf" "quickstart_ek_ra8p1_ep.siz" "./src/images/user_font_title/A.d" "./src/images/user_font_title/B.d" "./src/images/user_font_title/C.d" "./src/images/user_font_title/D.d" "./src/images/user_font_title/E.d" "./src/images/user_font_title/F.d" "./src/images/user_font_title/G.d" "./src/images/user_font_title/H.d" "./src/images/user_font_title/I.d" "./src/images/user_font_title/J.d" "./src/images/user_font_title/K.d" "./src/images/user_font_title/L.d" "./src/images/user_font_title/M.d" "./src/images/user_font_title/MINUS.d" "./src/images/user_font_title/N.d" "./src/images/user_font_title/O.d" "./src/images/user_font_title/P.d" "./src/images/user_font_title/Q.d" "./src/images/user_font_title/R.d" "./src/images/user_font_title/S.d" "./src/images/user_font_title/SPACE.d" "./src/images/user_font_title/T.d" "./src/images/user_font_title/U.d" "./src/images/user_font_title/UNDERSCORE.d" "./src/images/user_font_title/V.d" "./src/images/user_font_title/W.d" "./src/images/user_font_title/X.d" "./src/images/user_font_title/Y.d" "./src/images/user_font_title/Z.d" "./src/images/user_font_title/user_font_title_if.d" "./src/images/user_font_body/uc/A.d" "./src/images/user_font_body/uc/B.d" "./src/images/user_font_body/uc/C.d" "./src/images/user_font_body/uc/D.d" "./src/images/user_font_body/uc/E.d" "./src/images/user_font_body/uc/F.d" "./src/images/user_font_body/uc/G.d" "./src/images/user_font_body/uc/H.d" "./src/images/user_font_body/uc/I.d" "./src/images/user_font_body/uc/J.d" "./src/images/user_font_body/uc/K.d" "./src/images/user_font_body/uc/L.d" "./src/images/user_font_body/uc/M.d" "./src/images/user_font_body/uc/N.d" "./src/images/user_font_body/uc/O.d" "./src/images/user_font_body/uc/P.d" "./src/images/user_font_body/uc/Q.d" "./src/images/user_font_body/uc/R.d" "./src/images/user_font_body/uc/S.d" "./src/images/user_font_body/uc/T.d" "./src/images/user_font_body/uc/U.d" "./src/images/user_font_body/uc/V.d" "./src/images/user_font_body/uc/W.d" "./src/images/user_font_body/uc/X.d" "./src/images/user_font_body/uc/Y.d" "./src/images/user_font_body/uc/Z.d" "./src/images/user_font_body/lc/a.d" "./src/images/user_font_body/lc/b.d" "./src/images/user_font_body/lc/c.d" "./src/images/user_font_body/lc/d.d" "./src/images/user_font_body/lc/e.d" "./src/images/user_font_body/lc/f.d" "./src/images/user_font_body/lc/g.d" "./src/images/user_font_body/lc/h.d" "./src/images/user_font_body/lc/i.d" "./src/images/user_font_body/lc/j.d" "./src/images/user_font_body/lc/k.d" "./src/images/user_font_body/lc/l.d" "./src/images/user_font_body/lc/m.d" "./src/images/user_font_body/lc/n.d" "./src/images/user_font_body/lc/o.d" "./src/images/user_font_body/lc/p.d" "./src/images/user_font_body/lc/q.d" "./src/images/user_font_body/lc/r.d" "./src/images/user_font_body/lc/s.d" "./src/images/user_font_body/lc/t.d" "./src/images/user_font_body/lc/u.d" "./src/images/user_font_body/lc/v.d" "./src/images/user_font_body/lc/w.d" "./src/images/user_font_body/lc/x.d" "./src/images/user_font_body/lc/y.d" "./src/images/user_font_body/lc/z.d" "./src/images/user_font_body/0.d" "./src/images/user_font_body/1.d" "./src/images/user_font_body/2.d" "./src/images/user_font_body/3.d" "./src/images/user_font_body/4.d" "./src/images/user_font_body/5.d" "./src/images/user_font_body/6.d" "./src/images/user_font_body/7.d" "./src/images/user_font_body/8.d" "./src/images/user_font_body/9.d" "./src/images/user_font_body/AND.d" "./src/images/user_font_body/CLOSED_CURVED.d" "./src/images/user_font_body/CLOSED_SQUARE.d" "./src/images/user_font_body/COLON.d" "./src/images/user_font_body/COMMA.d" "./src/images/user_font_body/DEGREES.d" "./src/images/user_font_body/FULL_STOP.d" "./src/images/user_font_body/MINUS.d" "./src/images/user_font_body/OPEN_CURVED.d" "./src/images/user_font_body/OPEN_SQUARE.d" "./src/images/user_font_body/PERCENT.d" "./src/images/user_font_body/SLASH.d" "./src/images/user_font_body/SPACE.d" "./src/images/user_font_body/UNDERSCORE.d" "./src/images/user_font_body/user_font_body_if.d" "./src/images/overlays/menu_overlay.d" "./src/images/backgrounds/user_led_background_1024x600.d" "./src/images/backgrounds/welcome_screen_1024x600.d" "./src/blinky_thread_entry.d" "./src/board_cfg_switch.d" "./src/board_greenpak.d" "./src/board_hw_cfg.d" "./src/board_i2c_master.d" "./src/board_mon_thread_entry.d" "./src/board_sdram.d" "./src/camera_thread_entry.d" "./src/common_init.d" "./src/common_utils.d" "./src/display_thread_entry.d" "./src/hal_entry.d" "./src/jlink_console.d" "./src/main_menu_thread_entry.d" "./src/menu_ext.d" "./src/menu_kis.d" "./src/menu_lcd.d" "./src/menu_led.d" "./src/menu_main.d" "./src/menu_ns.d" "./src/ospi_b_commands.d" "./src/ospi_b_ep.d" "./src/ospi_commands.d" "./src/ov5640.d" "./src/touch_FT5316.d" "./src/tp_thread_entry.d" "./ra_gen/blinky_thread.d" "./ra_gen/board_mon_thread.d" "./ra_gen/camera_thread.d" "./ra_gen/common_data.d" "./ra_gen/display_thread.d" "./ra_gen/hal_data.d" "./ra_gen/main.d" "./ra_gen/main_menu_thread.d" "./ra_gen/pin_data.d" "./ra_gen/tp_thread.d" "./ra_gen/vector_data.d" "./ra/tes/dave2d/src/dave_64bitoperation.d" "./ra/tes/dave2d/src/dave_base.d" "./ra/tes/dave2d/src/dave_blit.d" "./ra/tes/dave2d/src/dave_box.d" "./ra/tes/dave2d/src/dave_circle.d" "./ra/tes/dave2d/src/dave_context.d" "./ra/tes/dave2d/src/dave_curve.d" "./ra/tes/dave2d/src/dave_dlist.d" "./ra/tes/dave2d/src/dave_driver.d" "./ra/tes/dave2d/src/dave_edge.d" "./ra/tes/dave2d/src/dave_errorcodes.d" "./ra/tes/dave2d/src/dave_gradient.d" "./ra/tes/dave2d/src/dave_hardware.d" "./ra/tes/dave2d/src/dave_line.d" "./ra/tes/dave2d/src/dave_math.d" "./ra/tes/dave2d/src/dave_memory.d" "./ra/tes/dave2d/src/dave_pattern.d" "./ra/tes/dave2d/src/dave_perfcount.d" "./ra/tes/dave2d/src/dave_polyline.d" "./ra/tes/dave2d/src/dave_quad.d" "./ra/tes/dave2d/src/dave_rbuffer.d" "./ra/tes/dave2d/src/dave_render.d" "./ra/tes/dave2d/src/dave_texture.d" "./ra/tes/dave2d/src/dave_triangle.d" "./ra/tes/dave2d/src/dave_utility.d" "./ra/tes/dave2d/src/dave_viewport.d" "./ra/tes/dave2d/src/dave_wedge.d" "./ra/fsp/src/rm_freertos_port/port.d" "./ra/fsp/src/r_vin/r_vin.d" "./ra/fsp/src/r_sci_b_uart/r_sci_b_uart.d" "./ra/fsp/src/r_ospi_b/r_ospi_b.d" "./ra/fsp/src/r_mipi_phy/r_mipi_phy.d" "./ra/fsp/src/r_mipi_csi/r_mipi_csi.d" "./ra/fsp/src/r_ioport/r_ioport.d" "./ra/fsp/src/r_iic_master/r_iic_master.d" "./ra/fsp/src/r_icu/r_icu.d" "./ra/fsp/src/r_gpt/r_gpt.d" "./ra/fsp/src/r_glcdc/r_glcdc.d" "./ra/fsp/src/r_drw/r_drw_base.d" "./ra/fsp/src/r_drw/r_drw_irq.d" "./ra/fsp/src/r_drw/r_drw_memory.d" "./ra/fsp/src/r_adc_b/r_adc_b.d" "./ra/fsp/src/bsp/mcu/ra8p1/bsp_linker.d" "./ra/fsp/src/bsp/mcu/all/bsp_clocks.d" "./ra/fsp/src/bsp/mcu/all/bsp_common.d" "./ra/fsp/src/bsp/mcu/all/bsp_delay.d" "./ra/fsp/src/bsp/mcu/all/bsp_group_irq.d" "./ra/fsp/src/bsp/mcu/all/bsp_guard.d" "./ra/fsp/src/bsp/mcu/all/bsp_io.d" "./ra/fsp/src/bsp/mcu/all/bsp_ipc.d" "./ra/fsp/src/bsp/mcu/all/bsp_irq.d" "./ra/fsp/src/bsp/mcu/all/bsp_macl.d" "./ra/fsp/src/bsp/mcu/all/bsp_register_protection.d" "./ra/fsp/src/bsp/mcu/all/bsp_sbrk.d" "./ra/fsp/src/bsp/mcu/all/bsp_sdram.d" "./ra/fsp/src/bsp/mcu/all/bsp_security.d" "./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.d" "./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.d" "./ra/board/ra8p1_ek/board_init.d" "./ra/board/ra8p1_ek/board_leds.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/list.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/queue.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.d" "./ra/aws/FreeRTOS/FreeRTOS/Source/timers.d" "./src/images/user_font_title/A.o" "./src/images/user_font_title/B.o" "./src/images/user_font_title/C.o" "./src/images/user_font_title/D.o" "./src/images/user_font_title/E.o" "./src/images/user_font_title/F.o" "./src/images/user_font_title/G.o" "./src/images/user_font_title/H.o" "./src/images/user_font_title/I.o" "./src/images/user_font_title/J.o" "./src/images/user_font_title/K.o" "./src/images/user_font_title/L.o" "./src/images/user_font_title/M.o" "./src/images/user_font_title/MINUS.o" "./src/images/user_font_title/N.o" "./src/images/user_font_title/O.o" "./src/images/user_font_title/P.o" "./src/images/user_font_title/Q.o" "./src/images/user_font_title/R.o" "./src/images/user_font_title/S.o" "./src/images/user_font_title/SPACE.o" "./src/images/user_font_title/T.o" "./src/images/user_font_title/U.o" "./src/images/user_font_title/UNDERSCORE.o" "./src/images/user_font_title/V.o" "./src/images/user_font_title/W.o" "./src/images/user_font_title/X.o" "./src/images/user_font_title/Y.o" "./src/images/user_font_title/Z.o" "./src/images/user_font_title/user_font_title_if.o" "./src/images/user_font_body/uc/A.o" "./src/images/user_font_body/uc/B.o" "./src/images/user_font_body/uc/C.o" "./src/images/user_font_body/uc/D.o" "./src/images/user_font_body/uc/E.o" "./src/images/user_font_body/uc/F.o" "./src/images/user_font_body/uc/G.o" "./src/images/user_font_body/uc/H.o" "./src/images/user_font_body/uc/I.o" "./src/images/user_font_body/uc/J.o" "./src/images/user_font_body/uc/K.o" "./src/images/user_font_body/uc/L.o" "./src/images/user_font_body/uc/M.o" "./src/images/user_font_body/uc/N.o" "./src/images/user_font_body/uc/O.o" "./src/images/user_font_body/uc/P.o" "./src/images/user_font_body/uc/Q.o" "./src/images/user_font_body/uc/R.o" "./src/images/user_font_body/uc/S.o" "./src/images/user_font_body/uc/T.o" "./src/images/user_font_body/uc/U.o" "./src/images/user_font_body/uc/V.o" "./src/images/user_font_body/uc/W.o" "./src/images/user_font_body/uc/X.o" "./src/images/user_font_body/uc/Y.o" "./src/images/user_font_body/uc/Z.o" "./src/images/user_font_body/lc/a.o" "./src/images/user_font_body/lc/b.o" "./src/images/user_font_body/lc/c.o" "./src/images/user_font_body/lc/d.o" "./src/images/user_font_body/lc/e.o" "./src/images/user_font_body/lc/f.o" "./src/images/user_font_body/lc/g.o" "./src/images/user_font_body/lc/h.o" "./src/images/user_font_body/lc/i.o" "./src/images/user_font_body/lc/j.o" "./src/images/user_font_body/lc/k.o" "./src/images/user_font_body/lc/l.o" "./src/images/user_font_body/lc/m.o" "./src/images/user_font_body/lc/n.o" "./src/images/user_font_body/lc/o.o" "./src/images/user_font_body/lc/p.o" "./src/images/user_font_body/lc/q.o" "./src/images/user_font_body/lc/r.o" "./src/images/user_font_body/lc/s.o" "./src/images/user_font_body/lc/t.o" "./src/images/user_font_body/lc/u.o" "./src/images/user_font_body/lc/v.o" "./src/images/user_font_body/lc/w.o" "./src/images/user_font_body/lc/x.o" "./src/images/user_font_body/lc/y.o" "./src/images/user_font_body/lc/z.o" "./src/images/user_font_body/0.o" "./src/images/user_font_body/1.o" "./src/images/user_font_body/2.o" "./src/images/user_font_body/3.o" "./src/images/user_font_body/4.o" "./src/images/user_font_body/5.o" "./src/images/user_font_body/6.o" "./src/images/user_font_body/7.o" "./src/images/user_font_body/8.o" "./src/images/user_font_body/9.o" "./src/images/user_font_body/AND.o" "./src/images/user_font_body/CLOSED_CURVED.o" "./src/images/user_font_body/CLOSED_SQUARE.o" "./src/images/user_font_body/COLON.o" "./src/images/user_font_body/COMMA.o" "./src/images/user_font_body/DEGREES.o" "./src/images/user_font_body/FULL_STOP.o" "./src/images/user_font_body/MINUS.o" "./src/images/user_font_body/OPEN_CURVED.o" "./src/images/user_font_body/OPEN_SQUARE.o" "./src/images/user_font_body/PERCENT.o" "./src/images/user_font_body/SLASH.o" "./src/images/user_font_body/SPACE.o" "./src/images/user_font_body/UNDERSCORE.o" "./src/images/user_font_body/user_font_body_if.o" "./src/images/overlays/menu_overlay.o" "./src/images/backgrounds/user_led_background_1024x600.o" "./src/images/backgrounds/welcome_screen_1024x600.o" "./src/blinky_thread_entry.o" "./src/board_cfg_switch.o" "./src/board_greenpak.o" "./src/board_hw_cfg.o" "./src/board_i2c_master.o" "./src/board_mon_thread_entry.o" "./src/board_sdram.o" "./src/camera_thread_entry.o" "./src/common_init.o" "./src/common_utils.o" "./src/display_thread_entry.o" "./src/hal_entry.o" "./src/jlink_console.o" "./src/main_menu_thread_entry.o" "./src/menu_ext.o" "./src/menu_kis.o" "./src/menu_lcd.o" "./src/menu_led.o" "./src/menu_main.o" "./src/menu_ns.o" "./src/ospi_b_commands.o" "./src/ospi_b_ep.o" "./src/ospi_commands.o" "./src/ov5640.o" "./src/touch_FT5316.o" "./src/tp_thread_entry.o" "./ra_gen/blinky_thread.o" "./ra_gen/board_mon_thread.o" "./ra_gen/camera_thread.o" "./ra_gen/common_data.o" "./ra_gen/display_thread.o" "./ra_gen/hal_data.o" "./ra_gen/main.o" "./ra_gen/main_menu_thread.o" "./ra_gen/pin_data.o" "./ra_gen/tp_thread.o" "./ra_gen/vector_data.o" "./ra/tes/dave2d/src/dave_64bitoperation.o" "./ra/tes/dave2d/src/dave_base.o" "./ra/tes/dave2d/src/dave_blit.o" "./ra/tes/dave2d/src/dave_box.o" "./ra/tes/dave2d/src/dave_circle.o" "./ra/tes/dave2d/src/dave_context.o" "./ra/tes/dave2d/src/dave_curve.o" "./ra/tes/dave2d/src/dave_dlist.o" "./ra/tes/dave2d/src/dave_driver.o" "./ra/tes/dave2d/src/dave_edge.o" "./ra/tes/dave2d/src/dave_errorcodes.o" "./ra/tes/dave2d/src/dave_gradient.o" "./ra/tes/dave2d/src/dave_hardware.o" "./ra/tes/dave2d/src/dave_line.o" "./ra/tes/dave2d/src/dave_math.o" "./ra/tes/dave2d/src/dave_memory.o" "./ra/tes/dave2d/src/dave_pattern.o" "./ra/tes/dave2d/src/dave_perfcount.o" "./ra/tes/dave2d/src/dave_polyline.o" "./ra/tes/dave2d/src/dave_quad.o" "./ra/tes/dave2d/src/dave_rbuffer.o" "./ra/tes/dave2d/src/dave_render.o" "./ra/tes/dave2d/src/dave_texture.o" "./ra/tes/dave2d/src/dave_triangle.o" "./ra/tes/dave2d/src/dave_utility.o" "./ra/tes/dave2d/src/dave_viewport.o" "./ra/tes/dave2d/src/dave_wedge.o" "./ra/fsp/src/rm_freertos_port/port.o" "./ra/fsp/src/r_vin/r_vin.o" "./ra/fsp/src/r_sci_b_uart/r_sci_b_uart.o" "./ra/fsp/src/r_ospi_b/r_ospi_b.o" "./ra/fsp/src/r_mipi_phy/r_mipi_phy.o" "./ra/fsp/src/r_mipi_csi/r_mipi_csi.o" "./ra/fsp/src/r_ioport/r_ioport.o" "./ra/fsp/src/r_iic_master/r_iic_master.o" "./ra/fsp/src/r_icu/r_icu.o" "./ra/fsp/src/r_gpt/r_gpt.o" "./ra/fsp/src/r_glcdc/r_glcdc.o" "./ra/fsp/src/r_drw/r_drw_base.o" "./ra/fsp/src/r_drw/r_drw_irq.o" "./ra/fsp/src/r_drw/r_drw_memory.o" "./ra/fsp/src/r_adc_b/r_adc_b.o" "./ra/fsp/src/bsp/mcu/ra8p1/bsp_linker.o" "./ra/fsp/src/bsp/mcu/all/bsp_clocks.o" "./ra/fsp/src/bsp/mcu/all/bsp_common.o" "./ra/fsp/src/bsp/mcu/all/bsp_delay.o" "./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o" "./ra/fsp/src/bsp/mcu/all/bsp_guard.o" "./ra/fsp/src/bsp/mcu/all/bsp_io.o" "./ra/fsp/src/bsp/mcu/all/bsp_ipc.o" "./ra/fsp/src/bsp/mcu/all/bsp_irq.o" "./ra/fsp/src/bsp/mcu/all/bsp_macl.o" "./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o" "./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o" "./ra/fsp/src/bsp/mcu/all/bsp_sdram.o" "./ra/fsp/src/bsp/mcu/all/bsp_security.o" "./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o" "./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o" "./ra/board/ra8p1_ek/board_init.o" "./ra/board/ra8p1_ek/board_leds.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/list.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o" "./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o" "quickstart_ek_ra8p1_ep.hex" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.srec" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" "quickstart_ek_ra8p1_ep.map" ""
+rm -rf  quickstart_ek_ra8p1_ep.elf
+ 
+Extracting support files...
+16:19:36 **** Build of configuration Debug for project e2studio ****
+make -r -j7 all 
+Building file: ../src/images/user_font_title/D.c
+Building file: ../src/images/user_font_title/E.c
+Building file: ../src/images/user_font_title/C.c
+Building file: ../src/images/user_font_title/A.c
+Building file: ../src/images/user_font_title/B.c
+Building file: ../src/images/user_font_title/G.c
+Building file: ../src/images/user_font_title/F.c
+Building file: ../src/images/user_font_title/H.c
+Building file: ../src/images/user_font_title/I.c
+Building file: ../src/images/user_font_title/J.c
+Building file: ../src/images/user_font_title/L.c
+Building file: ../src/images/user_font_title/K.c
+Building file: ../src/images/user_font_title/M.c
+Building file: ../src/images/user_font_title/MINUS.c
+Building file: ../src/images/user_font_title/N.c
+Building file: ../src/images/user_font_title/P.c
+Building file: ../src/images/user_font_title/O.c
+Building file: ../src/images/user_font_title/Q.c
+Building file: ../src/images/user_font_title/R.c
+Building file: ../src/images/user_font_title/SPACE.c
+Building file: ../src/images/user_font_title/S.c
+Building file: ../src/images/user_font_title/T.c
+Building file: ../src/images/user_font_title/U.c
+Building file: ../src/images/user_font_title/UNDERSCORE.c
+Building file: ../src/images/user_font_title/V.c
+Building file: ../src/images/user_font_title/W.c
+Building file: ../src/images/user_font_title/X.c
+Building file: ../src/images/user_font_title/Y.c
+Building file: ../src/images/user_font_title/Z.c
+Building file: ../src/images/user_font_title/user_font_title_if.c
+Building file: ../src/images/user_font_body/uc/A.c
+Building file: ../src/images/user_font_body/uc/B.c
+Building file: ../src/images/user_font_body/uc/C.c
+Building file: ../src/images/user_font_body/uc/D.c
+Building file: ../src/images/user_font_body/uc/E.c
+Building file: ../src/images/user_font_body/uc/G.c
+Building file: ../src/images/user_font_body/uc/F.c
+Building file: ../src/images/user_font_body/uc/H.c
+Building file: ../src/images/user_font_body/uc/I.c
+Building file: ../src/images/user_font_body/uc/J.c
+Building file: ../src/images/user_font_body/uc/K.c
+Building file: ../src/images/user_font_body/uc/L.c
+Building file: ../src/images/user_font_body/uc/N.c
+Building file: ../src/images/user_font_body/uc/M.c
+Building file: ../src/images/user_font_body/uc/O.c
+Building file: ../src/images/user_font_body/uc/P.c
+Building file: ../src/images/user_font_body/uc/Q.c
+Building file: ../src/images/user_font_body/uc/R.c
+Building file: ../src/images/user_font_body/uc/S.c
+Building file: ../src/images/user_font_body/uc/T.c
+Building file: ../src/images/user_font_body/uc/V.c
+Building file: ../src/images/user_font_body/uc/U.c
+Building file: ../src/images/user_font_body/uc/W.c
+Building file: ../src/images/user_font_body/uc/X.c
+Building file: ../src/images/user_font_body/uc/Y.c
+Building file: ../src/images/user_font_body/uc/Z.c
+Building file: ../src/images/user_font_body/lc/a.c
+Building file: ../src/images/user_font_body/lc/b.c
+Building file: ../src/images/user_font_body/lc/c.c
+Building file: ../src/images/user_font_body/lc/d.c
+Building file: ../src/images/user_font_body/lc/e.c
+Building file: ../src/images/user_font_body/lc/g.c
+Building file: ../src/images/user_font_body/lc/f.c
+Building file: ../src/images/user_font_body/lc/h.c
+Building file: ../src/images/user_font_body/lc/i.c
+Building file: ../src/images/user_font_body/lc/j.c
+Building file: ../src/images/user_font_body/lc/k.c
+Building file: ../src/images/user_font_body/lc/l.c
+Building file: ../src/images/user_font_body/lc/m.c
+Building file: ../src/images/user_font_body/lc/n.c
+Building file: ../src/images/user_font_body/lc/o.c
+Building file: ../src/images/user_font_body/lc/p.c
+Building file: ../src/images/user_font_body/lc/r.c
+Building file: ../src/images/user_font_body/lc/q.c
+Building file: ../src/images/user_font_body/lc/s.c
+Building file: ../src/images/user_font_body/lc/t.c
+Building file: ../src/images/user_font_body/lc/u.c
+Building file: ../src/images/user_font_body/lc/v.c
+Building file: ../src/images/user_font_body/lc/w.c
+Building file: ../src/images/user_font_body/lc/x.c
+Building file: ../src/images/user_font_body/lc/y.c
+Building file: ../src/images/user_font_body/lc/z.c
+Building file: ../src/images/user_font_body/0.c
+Building file: ../src/images/user_font_body/1.c
+Building file: ../src/images/user_font_body/3.c
+Building file: ../src/images/user_font_body/2.c
+Building file: ../src/images/user_font_body/4.c
+Building file: ../src/images/user_font_body/5.c
+Building file: ../src/images/user_font_body/6.c
+Building file: ../src/images/user_font_body/7.c
+Building file: ../src/images/user_font_body/8.c
+Building file: ../src/images/user_font_body/AND.c
+Building file: ../src/images/user_font_body/9.c
+Building file: ../src/images/user_font_body/CLOSED_CURVED.c
+Building file: ../src/images/user_font_body/CLOSED_SQUARE.c
+Building file: ../src/images/user_font_body/COLON.c
+Building file: ../src/images/user_font_body/COMMA.c
+Building file: ../src/images/user_font_body/DEGREES.c
+Building file: ../src/images/user_font_body/FULL_STOP.c
+Building file: ../src/images/user_font_body/MINUS.c
+Building file: ../src/images/user_font_body/OPEN_CURVED.c
+Building file: ../src/images/user_font_body/OPEN_SQUARE.c
+Building file: ../src/images/user_font_body/PERCENT.c
+Building file: ../src/images/user_font_body/SLASH.c
+Building file: ../src/images/user_font_body/SPACE.c
+Building file: ../src/images/user_font_body/UNDERSCORE.c
+Building file: ../src/images/user_font_body/user_font_body_if.c
+Building file: ../src/images/overlays/menu_overlay.c
+Building file: ../src/images/backgrounds/user_led_background_1024x600.c
+Building file: ../src/images/backgrounds/welcome_screen_1024x600.c
+Building file: ../src/blinky_thread_entry.c
+Building file: ../src/board_cfg_switch.c
+Building file: ../src/board_greenpak.c
+Building file: ../src/board_hw_cfg.c
+Building file: ../src/board_i2c_master.c
+Building file: ../src/board_mon_thread_entry.c
+Building file: ../src/board_sdram.c
+Building file: ../src/camera_thread_entry.c
+Building file: ../src/common_init.c
+Building file: ../src/common_utils.c
+Building file: ../src/display_thread_entry.c
+Building file: ../src/hal_entry.c
+Building file: ../src/jlink_console.c
+Building file: ../src/main_menu_thread_entry.c
+Building file: ../src/menu_ext.c
+Building file: ../src/menu_kis.c
+Building file: ../src/menu_lcd.c
+Building file: ../src/menu_led.c
+Building file: ../src/menu_main.c
+Building file: ../src/menu_ns.c
+Building file: ../src/ospi_b_commands.c
+Building file: ../src/ospi_b_ep.c
+Building file: ../src/ov5640.c
+Building file: ../src/ospi_commands.c
+Building file: ../src/touch_FT5316.c
+Building file: ../src/tp_thread_entry.c
+Building file: ../ra_gen/blinky_thread.c
+Building file: ../ra_gen/board_mon_thread.c
+Building file: ../ra_gen/camera_thread.c
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/display_thread.c
+Building file: ../ra_gen/main.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/main_menu_thread.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/tp_thread.c
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra/tes/dave2d/src/dave_64bitoperation.c
+Building file: ../ra/tes/dave2d/src/dave_base.c
+Building file: ../ra/tes/dave2d/src/dave_blit.c
+Building file: ../ra/tes/dave2d/src/dave_box.c
+../ra/tes/dave2d/src/dave_blit.c: In function 'd2_blitcopy':
+../ra/tes/dave2d/src/dave_blit.c:417:33: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  417 |             blitcontext->texbpp = 1;
+      |             ~~~~~~~~~~~~~~~~~~~~^~~
+../ra/tes/dave2d/src/dave_blit.c:419:10: note: here
+  419 |          case d2_mode_alpha8 :
+      |          ^~~~
+Building file: ../ra/tes/dave2d/src/dave_circle.c
+In file included from ../ra/tes/dave2d/src/dave_intern.h:104,
+                 from ../ra/tes/dave2d/src/dave_box.c:20:
+../ra/tes/dave2d/src/dave_box.c: In function 'd2_renderbox_inline':
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_dlist.h:30:63: note: in definition of macro 'D2_DLISTWRITES'
+   30 | #define D2_DLISTWRITES(x, y)  d2_add2dlist_intern( handle, x, y )             /* PRQA S 3453 */ /* $Misra: #MACRO_FXN_FORWARD $*/
+      |                                                               ^
+../ra/tes/dave2d/src/dave_box.c:123:41: note: in expansion of macro 'D2_FIX16'
+  123 |             D2_DLISTWRITES( D2_L2YADD , D2_FIX16(-1) );   /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                                         ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_dlist.h:30:63: note: in definition of macro 'D2_DLISTWRITES'
+   30 | #define D2_DLISTWRITES(x, y)  d2_add2dlist_intern( handle, x, y )             /* PRQA S 3453 */ /* $Misra: #MACRO_FXN_FORWARD $*/
+      |                                                               ^
+../ra/tes/dave2d/src/dave_box.c:138:41: note: in expansion of macro 'D2_FIX16'
+  138 |             D2_DLISTWRITES( D2_L2XADD , D2_FIX16(-1) );  /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                                         ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_dlist.h:30:63: note: in definition of macro 'D2_DLISTWRITES'
+   30 | #define D2_DLISTWRITES(x, y)  d2_add2dlist_intern( handle, x, y )             /* PRQA S 3453 */ /* $Misra: #MACRO_FXN_FORWARD $*/
+      |                                                               ^
+../ra/tes/dave2d/src/dave_box.c:152:41: note: in expansion of macro 'D2_FIX16'
+  152 |             D2_DLISTWRITES( D2_L2XADD , D2_FIX16(-1) );  /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                                         ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_dlist.h:30:63: note: in definition of macro 'D2_DLISTWRITES'
+   30 | #define D2_DLISTWRITES(x, y)  d2_add2dlist_intern( handle, x, y )             /* PRQA S 3453 */ /* $Misra: #MACRO_FXN_FORWARD $*/
+      |                                                               ^
+../ra/tes/dave2d/src/dave_box.c:161:41: note: in expansion of macro 'D2_FIX16'
+  161 |             D2_DLISTWRITES( D2_L4YADD , D2_FIX16(-1) );  /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                                         ^~~~~~~~
+Building file: ../ra/tes/dave2d/src/dave_curve.c
+Building file: ../ra/tes/dave2d/src/dave_dlist.c
+Building file: ../ra/tes/dave2d/src/dave_context.c
+Building file: ../ra/tes/dave2d/src/dave_driver.c
+Building file: ../ra/tes/dave2d/src/dave_edge.c
+Building file: ../ra/tes/dave2d/src/dave_errorcodes.c
+In file included from /Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_driver.h:659,
+                 from ../ra/tes/dave2d/src/dave_edge.c:15:
+../ra/tes/dave2d/src/dave_edge.c: In function 'd2_lineedge_setup3_intern':
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:173:18: note: in expansion of macro 'D2_FIX16'
+  173 |             ya = D2_FIX16( -1 );                                       /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:213:18: note: in expansion of macro 'D2_FIX16'
+  213 |             ya = D2_FIX16( -1 );                                     /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:230:18: note: in expansion of macro 'D2_FIX16'
+  230 |             xa = D2_FIX16( -1 );                                    /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:313:18: note: in expansion of macro 'D2_FIX16'
+  313 |             xa = D2_FIX16( -1 );                                    /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+../ra/tes/dave2d/src/dave_edge.c: In function 'd2_triedge_setup_intern':
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:371:18: note: in expansion of macro 'D2_FIX16'
+  371 |             ya = D2_FIX16( -1 );                      /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:384:18: note: in expansion of macro 'D2_FIX16'
+  384 |             ya = D2_FIX16( -1 );                      /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:391:18: note: in expansion of macro 'D2_FIX16'
+  391 |             xa = D2_FIX16( -1 );                      /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+/Users/kim_kyoungkun/Desktop/technonia/r20an0799eu0101-ek-ra8p1-exampleprojects/ek_ra8p1/_quickstart/quickstart_ek_ra8p1_ep/e2studio/ra/tes/dave2d/inc/dave_math.h:52:30: warning: left shift of negative value [-Wshift-negative-value]
+   52 | #define D2_FIX16(x)     ((x) << 16)                         /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                              ^~
+../ra/tes/dave2d/src/dave_edge.c:439:18: note: in expansion of macro 'D2_FIX16'
+  439 |             xa = D2_FIX16( -1 );                     /* PRQA S 4131 */ /* $Misra: #PERF_ARITHMETIC_SHIFT_LEFT $*/
+      |                  ^~~~~~~~
+Building file: ../ra/tes/dave2d/src/dave_gradient.c
+Building file: ../ra/tes/dave2d/src/dave_hardware.c
+Building file: ../ra/tes/dave2d/src/dave_line.c
+Building file: ../ra/tes/dave2d/src/dave_math.c
+Building file: ../ra/tes/dave2d/src/dave_memory.c
+Building file: ../ra/tes/dave2d/src/dave_pattern.c
+Building file: ../ra/tes/dave2d/src/dave_perfcount.c
+Building file: ../ra/tes/dave2d/src/dave_polyline.c
+Building file: ../ra/tes/dave2d/src/dave_quad.c
+Building file: ../ra/tes/dave2d/src/dave_rbuffer.c
+Building file: ../ra/tes/dave2d/src/dave_render.c
+Building file: ../ra/tes/dave2d/src/dave_texture.c
+Building file: ../ra/tes/dave2d/src/dave_triangle.c
+Building file: ../ra/tes/dave2d/src/dave_utility.c
+Building file: ../ra/tes/dave2d/src/dave_viewport.c
+Building file: ../ra/tes/dave2d/src/dave_wedge.c
+Building file: ../ra/fsp/src/rm_freertos_port/port.c
+Building file: ../ra/fsp/src/r_vin/r_vin.c
+Building file: ../ra/fsp/src/r_sci_b_uart/r_sci_b_uart.c
+Building file: ../ra/fsp/src/r_ospi_b/r_ospi_b.c
+Building file: ../ra/fsp/src/r_mipi_phy/r_mipi_phy.c
+Building file: ../ra/fsp/src/r_mipi_csi/r_mipi_csi.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+Building file: ../ra/fsp/src/r_iic_master/r_iic_master.c
+Building file: ../ra/fsp/src/r_icu/r_icu.c
+Building file: ../ra/fsp/src/r_gpt/r_gpt.c
+Building file: ../ra/fsp/src/r_glcdc/r_glcdc.c
+Building file: ../ra/fsp/src/r_drw/r_drw_base.c
+Building file: ../ra/fsp/src/r_drw/r_drw_irq.c
+Building file: ../ra/fsp/src/r_drw/r_drw_memory.c
+Building file: ../ra/fsp/src/r_adc_b/r_adc_b.c
+Building file: ../ra/fsp/src/bsp/mcu/ra8p1/bsp_linker.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_ipc.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_macl.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sdram.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/board/ra8p1_ek/board_init.c
+Building file: ../ra/board/ra8p1_ek/board_leds.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/event_groups.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/list.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/queue.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/stream_buffer.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/tasks.c
+Building file: ../ra/aws/FreeRTOS/FreeRTOS/Source/timers.c
+Building target: e2studio.elf
+arm-none-eabi-objcopy -O ihex "e2studio.elf"  "e2studio.hex"
+arm-none-eabi-size --format=berkeley "e2studio.elf"
+   text	   data	    bss	    dec	    hex	filename
+5736308	  15080	18142165	23893553	16c9631	e2studio.elf

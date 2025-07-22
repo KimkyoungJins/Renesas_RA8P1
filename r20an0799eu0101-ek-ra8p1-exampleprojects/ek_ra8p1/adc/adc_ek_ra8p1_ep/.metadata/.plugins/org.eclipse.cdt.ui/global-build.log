@@ -1,0 +1,6 @@
+Extracting support files...
+16:05:15 **** Build of configuration Debug for project quickstart_ek_ra8p1_ep ****
+make -r -j7 all 
+arm-none-eabi-size --format=berkeley "quickstart_ek_ra8p1_ep.elf"
+   text	   data	    bss	    dec	    hex	filename
+5736308	  15080	18142165	23893553	16c9631	quickstart_ek_ra8p1_ep.elf
